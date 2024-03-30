@@ -114,8 +114,6 @@ B面根据配置项生成客户端预览图
         styleSheet.replaceSync(text);
         return filterCssRules(styleSheet.cssRules, target);
     }
-
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd3927e6354843eab625980a099f7cc4~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2560&h=1313&s=304671&e=png&b=fefdfd)
     // 获取并过滤所有样式表
     async function getStyleSheet() {
         let filteredCss = '';
