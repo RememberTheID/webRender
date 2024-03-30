@@ -146,7 +146,7 @@ B面根据配置项生成客户端预览图
 >最终效果
 >图标以及图片静态资源未作处理需要处理自己添加相关逻辑
 >后期我会补上静态资源逻辑 并写成Google插件 免费开源
->脚本源码自取 [webRender](https://github.com/RememberTheID/webRender/tree/main)
+>脚本源码自取 [webRender](https://github.com/RememberTheID/webRender/tree/main) `https://github.com/RememberTheID/webRender/tree/main`
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c84d3cb73db4e269987e6697f510bd9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2548&h=1246&s=208704&e=png&b=fefefe)
 
