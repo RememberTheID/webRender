@@ -60,9 +60,10 @@ async function getHtml() {
     // 将过滤后的样式表添加到 style 元素中
     style.innerHTML = await getStyleSheet();
 
-    // 移除 HTML 中的 script 和 link 元素
+    // 移除 HTML 中的 script 和 link,style 元素
     target.querySelectorAll('script').forEach(script => script.remove());
     target.querySelectorAll('link').forEach(link => link.remove());
+    target.querySelectorAll('style').forEach(link => link.remove());
 
     // 克隆目标 HTML 树并添加过滤后的样式表
     const htmlRender = target.cloneNode(true);
